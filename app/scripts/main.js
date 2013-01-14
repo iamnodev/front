@@ -1,9 +1,12 @@
-require(
-	['assets/scripts/jquery/jquery-1.8.3.js',
-	 'assets/scripts/underscore/underscore.js',
-	 'assets/scripts/backbone/backbone.js',
-	 'assets/scripts/handlebars/handlebars-1.0.rc.1.js'],
-	function() {
-		console.log('dependencies loaded');
+require.config({
+	paths: {
+		'jquery': 'vendor/jquery/jquery-1.8.3',
+		'underscore': 'vendor/underscore-amd/underscore',
+		'backbone': 'vendor/backbone-amd/backbone',
+		'handlebars': 'vendor/handlebars/handlebars-1.0.rc.1'
 	}
-);
+});
+
+require(['views/app'], function(AppView) {
+	new AppView;
+});
