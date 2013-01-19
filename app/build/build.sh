@@ -13,6 +13,7 @@ node r.js -o app.build.js
 echo "# cleaning up"
 rm -rf ../../dist/build.txt
 rm -rf ../../dist/build/
+rm -rf ../../dist/vendor/
 
 # end
 echo "# build done"
