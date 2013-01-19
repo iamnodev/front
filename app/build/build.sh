@@ -11,7 +11,8 @@ node r.js -o app.build.js
 
 # cleaning build
 echo "# cleaning up"
-rm -rf ../../dist/build
+rm -rf ../../dist/build.txt
+rm -rf ../../dist/build/
 
 # end
 echo "# build done"
