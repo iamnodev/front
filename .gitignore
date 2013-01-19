@@ -1,7 +1,3 @@
-# Ignoring app vendor #
-#######################
-app/scripts/vendor/
-
 # Ignore compilation results #
 ##############################
 dist/
