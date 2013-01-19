@@ -1,0 +1,5 @@
+{
+  "directory" : "../scripts/vendor",
+  "json"      : "vendor.json",
+  "endpoint"  : "https://bower.herokuapp.com"
+}
